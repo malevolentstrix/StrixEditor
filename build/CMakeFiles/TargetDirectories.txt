@@ -1,0 +1,5 @@
+/home/jithin/Documents/StrixEditor/build/CMakeFiles/rebuild_cache.dir
+/home/jithin/Documents/StrixEditor/build/CMakeFiles/edit_cache.dir
+/home/jithin/Documents/StrixEditor/build/src/CMakeFiles/rebuild_cache.dir
+/home/jithin/Documents/StrixEditor/build/src/CMakeFiles/StrixEditor.dir
+/home/jithin/Documents/StrixEditor/build/src/CMakeFiles/edit_cache.dir
