@@ -8,6 +8,7 @@ enum {
 	ID_Open = wxID_OPEN,
 	ID_Save = wxID_SAVE,
 	ID_About = wxID_ABOUT,
+	ID_AsPDF = wxID_PRINT,
 };
 
 class StrixEditor : public wxFrame {
@@ -18,6 +19,7 @@ public:
 	wxMenuBar* menubar;
 	wxMenu* file;
 	wxMenu* help;
+	wxMenu* exportto;
 
 	// Event Handlers
 	void OnQuit(wxCommandEvent& event);
@@ -25,6 +27,7 @@ public:
 	void OnSave(wxCommandEvent& event);
 	void OnSaveAs(wxCommandEvent& event);
 	void OnAbout(wxCommandEvent& event);
+	void OnAsPDF(wxCommandEvent& event);
 private:
 	DECLARE_EVENT_TABLE()
 	wxRichTextCtrl* m_richTextCtrl;

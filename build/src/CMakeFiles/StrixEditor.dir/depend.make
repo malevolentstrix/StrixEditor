@@ -33,6 +33,7 @@ src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/c
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/clntdata.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/cmdargs.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/cmdproc.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/cmndata.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/colour.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/combobox.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/compiler.h
@@ -83,6 +84,7 @@ src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/g
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/msgdlgg.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/paletteg.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/panelg.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/printps.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/scrolwin.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/statusbr.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/generic/textdlgg.h
@@ -190,12 +192,16 @@ src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/p
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/platform.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/platinfo.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/position.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/print.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/printdlg.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/prntbase.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/radiobox.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/radiobut.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/recguard.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/region.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextbuffer.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextctrl.h
+src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextprint.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/rtti.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/scopedptr.h
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: /usr/local/include/wx-3.1/wx/scopeguard.h
@@ -291,6 +297,7 @@ src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/c
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/clntdata.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/cmdargs.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/cmdproc.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/cmndata.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/colour.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/combobox.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/compiler.h
@@ -341,6 +348,7 @@ src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/g
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/msgdlgg.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/paletteg.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/panelg.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/printps.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/scrolwin.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/statusbr.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/generic/textdlgg.h
@@ -448,12 +456,16 @@ src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/p
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/platform.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/platinfo.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/position.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/print.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/printdlg.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/prntbase.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/radiobox.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/radiobut.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/recguard.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/region.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextbuffer.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextctrl.h
+src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/richtext/richtextprint.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/rtti.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/scopedptr.h
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: /usr/local/include/wx-3.1/wx/scopeguard.h

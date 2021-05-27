@@ -1,6 +1,8 @@
 #include "Application.h"
 #include "StrixEditor.h"
-
+wxRichTextPrinting* Application::GetPrinting() const {
+	return m_printing;
+}
 bool Application::OnInit() {
 
 	wxSize size = wxGetDisplaySize();

@@ -19,6 +19,8 @@ wx/richtext/richtextctrl.h
 -
 wx/richtext/richtextbuffer.h
 -
+wx/richtext/richtextprint.h
+-
 
 /home/jithin/Github/StrixEditor/src/StrixEditor.cpp
 StrixEditor.h
@@ -435,6 +437,14 @@ wx/object.h
 /usr/local/include/wx-3.1/wx/wx/object.h
 wx/list.h
 /usr/local/include/wx-3.1/wx/wx/list.h
+
+/usr/local/include/wx-3.1/wx/cmndata.h
+wx/defs.h
+/usr/local/include/wx-3.1/wx/wx/defs.h
+wx/gdicmn.h
+/usr/local/include/wx-3.1/wx/wx/gdicmn.h
+wx/stream.h
+/usr/local/include/wx-3.1/wx/wx/stream.h
 
 /usr/local/include/wx-3.1/wx/colour.h
 wx/defs.h
@@ -1077,6 +1087,10 @@ wx/gdicmn.h
 /usr/local/include/wx-3.1/wx/generic/panelg.h
 wx/bitmap.h
 /usr/local/include/wx-3.1/wx/generic/wx/bitmap.h
+
+/usr/local/include/wx-3.1/wx/generic/printps.h
+wx/prntbase.h
+/usr/local/include/wx-3.1/wx/generic/wx/prntbase.h
 
 /usr/local/include/wx-3.1/wx/generic/scrolwin.h
 wx/recguard.h
@@ -1816,6 +1830,48 @@ wx/string.h
 wx/gdicmn.h
 /usr/local/include/wx-3.1/wx/wx/gdicmn.h
 
+/usr/local/include/wx-3.1/wx/print.h
+wx/defs.h
+/usr/local/include/wx-3.1/wx/wx/defs.h
+wx/msw/printwin.h
+/usr/local/include/wx-3.1/wx/wx/msw/printwin.h
+wx/osx/printmac.h
+/usr/local/include/wx-3.1/wx/wx/osx/printmac.h
+wx/qt/printqt.h
+/usr/local/include/wx-3.1/wx/wx/qt/printqt.h
+wx/generic/printps.h
+/usr/local/include/wx-3.1/wx/wx/generic/printps.h
+
+/usr/local/include/wx-3.1/wx/printdlg.h
+wx/defs.h
+/usr/local/include/wx-3.1/wx/wx/defs.h
+wx/event.h
+/usr/local/include/wx-3.1/wx/wx/event.h
+wx/dialog.h
+/usr/local/include/wx-3.1/wx/wx/dialog.h
+wx/intl.h
+/usr/local/include/wx-3.1/wx/wx/intl.h
+wx/cmndata.h
+/usr/local/include/wx-3.1/wx/wx/cmndata.h
+
+/usr/local/include/wx-3.1/wx/prntbase.h
+wx/defs.h
+/usr/local/include/wx-3.1/wx/wx/defs.h
+wx/event.h
+/usr/local/include/wx-3.1/wx/wx/event.h
+wx/cmndata.h
+/usr/local/include/wx-3.1/wx/wx/cmndata.h
+wx/panel.h
+/usr/local/include/wx-3.1/wx/wx/panel.h
+wx/scrolwin.h
+/usr/local/include/wx-3.1/wx/wx/scrolwin.h
+wx/dialog.h
+/usr/local/include/wx-3.1/wx/wx/dialog.h
+wx/frame.h
+/usr/local/include/wx-3.1/wx/wx/frame.h
+wx/dc.h
+/usr/local/include/wx-3.1/wx/wx/dc.h
+
 /usr/local/include/wx-3.1/wx/radiobox.h
 wx/defs.h
 /usr/local/include/wx-3.1/wx/wx/defs.h
@@ -1919,6 +1975,16 @@ wx/textctrl.h
 /usr/local/include/wx-3.1/wx/richtext/wx/textctrl.h
 wx/dnd.h
 /usr/local/include/wx-3.1/wx/richtext/wx/dnd.h
+
+/usr/local/include/wx-3.1/wx/richtext/richtextprint.h
+wx/defs.h
+/usr/local/include/wx-3.1/wx/richtext/wx/defs.h
+wx/richtext/richtextbuffer.h
+/usr/local/include/wx-3.1/wx/richtext/wx/richtext/richtextbuffer.h
+wx/print.h
+/usr/local/include/wx-3.1/wx/richtext/wx/print.h
+wx/printdlg.h
+/usr/local/include/wx-3.1/wx/richtext/wx/printdlg.h
 
 /usr/local/include/wx-3.1/wx/rtti.h
 wx/memory.h
