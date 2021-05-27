@@ -17,5 +17,6 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 <li>File</li>
 <li>About</li>
 </ol>
+
 ### PS : The Project is under heavy developement
 ### New features will be added soon
