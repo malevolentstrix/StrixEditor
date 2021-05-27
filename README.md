@@ -18,5 +18,27 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 <li>About</li>
 </ol>
 
+## How does it look?
+#### On Linux 5.4.0-73-generic Built on Ubuntu 18.04.4 LTS GTK 3.22.30
+#### Main Application
+<br>
+<img height = 200 width = 200 src = "./screenshots/main.png">
+</br>
+
+#### Menu
+<br>
+<img height = 200 width = 200 src = "./screenshots/menu.png">
+</br>
+
+#### About
+<br>
+<img height = 200 width = 200 src = "./screenshots/about.png">
+</br>
+
+#### Open File Box Appearance
+<br>
+<img height = 200 width = 200 src = "./screenshots/openfile.png">
+</br>
+
 ### PS : The Project is under heavy developement
 ### New features will be added soon
