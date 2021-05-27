@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jithin/Documents/StrixEditor
+CMAKE_SOURCE_DIR = /home/jithin/Github/StrixEditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jithin/Documents/StrixEditor/build
+CMAKE_BINARY_DIR = /home/jithin/Github/StrixEditor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jithin/Documents/StrixEditor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Documents/StrixEditor/build/CMakeFiles /home/jithin/Documents/StrixEditor/build/src/CMakeFiles/progress.marks
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Documents/StrixEditor/build/CMakeFiles 0
+	cd /home/jithin/Github/StrixEditor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Github/StrixEditor/build/CMakeFiles /home/jithin/Github/StrixEditor/build/src/CMakeFiles/progress.marks
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Github/StrixEditor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jithin/Documents/StrixEditor/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jithin/Github/StrixEditor/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/StrixEditor.dir/rule:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/StrixEditor.dir/rule
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/StrixEditor.dir/rule
 .PHONY : src/CMakeFiles/StrixEditor.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ StrixEditor: src/CMakeFiles/StrixEditor.dir/rule
 
 # fast build rule for target.
 StrixEditor/fast:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/build
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/build
 .PHONY : StrixEditor/fast
 
 Application.o: Application.cpp.o
@@ -131,7 +131,7 @@ Application.o: Application.cpp.o
 
 # target to build an object file
 Application.cpp.o:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.o
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.o
 .PHONY : Application.cpp.o
 
 Application.i: Application.cpp.i
@@ -140,7 +140,7 @@ Application.i: Application.cpp.i
 
 # target to preprocess a source file
 Application.cpp.i:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.i
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.i
 .PHONY : Application.cpp.i
 
 Application.s: Application.cpp.s
@@ -149,7 +149,7 @@ Application.s: Application.cpp.s
 
 # target to generate assembly for a file
 Application.cpp.s:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.s
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
 StrixEditor.o: StrixEditor.cpp.o
@@ -158,7 +158,7 @@ StrixEditor.o: StrixEditor.cpp.o
 
 # target to build an object file
 StrixEditor.cpp.o:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o
 .PHONY : StrixEditor.cpp.o
 
 StrixEditor.i: StrixEditor.cpp.i
@@ -167,7 +167,7 @@ StrixEditor.i: StrixEditor.cpp.i
 
 # target to preprocess a source file
 StrixEditor.cpp.i:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i
 .PHONY : StrixEditor.cpp.i
 
 StrixEditor.s: StrixEditor.cpp.s
@@ -176,7 +176,7 @@ StrixEditor.s: StrixEditor.cpp.s
 
 # target to generate assembly for a file
 StrixEditor.cpp.s:
-	cd /home/jithin/Documents/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s
+	cd /home/jithin/Github/StrixEditor/build && $(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s
 .PHONY : StrixEditor.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jithin/Documents/StrixEditor/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jithin/Github/StrixEditor/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

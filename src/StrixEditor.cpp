@@ -5,6 +5,7 @@ wxBEGIN_EVENT_TABLE(StrixEditor, wxFrame)
 	EVT_MENU(ID_Quit, StrixEditor::OnQuit)
 	EVT_MENU(ID_Open, StrixEditor::OnOpen)
 	EVT_MENU(ID_Save, StrixEditor::OnSave)
+	EVT_MENU(ID_About, StrixEditor::OnAbout)
 
 wxEND_EVENT_TABLE()
 
@@ -17,14 +18,17 @@ StrixEditor::StrixEditor(const wxString& title, const wxSize& size)
 
 	// File menu option
 	file = new wxMenu;
+	help = new wxMenu;
 
 	// Menu Items
 	file->Append(ID_Open, "&Open\tCtrl+O", "Open a file");
 	file->Append(ID_Save, "&Save\tCtrl+S", "Save a file");
 	file->Append(ID_Quit, "&Quit\tCtrl+Q", "Quit StrixEditor");
+	help->Append(ID_About, "&About\tCtrl+A", "About Us");
 
 	// Add Menubar Items
 	menubar->Append(file, "&File");
+	menubar->Append(help, "&Help");
 
 	// Attach the menu bar to the frame
 	SetMenuBar(menubar);
@@ -76,4 +80,10 @@ void StrixEditor::OnSave(wxCommandEvent& WXUNUSED(event)) {
 			m_richTextCtrl->SaveFile(path);
 		}
 	}
+}
+//About Nox
+void StrixEditor::OnAbout(wxCommandEvent& WXUNUSED(event)) {
+	wxString msg;
+	msg.Printf("StrixEditor was made for an Understanding the basic concepts of WxWidgets. \nBy Jithin John");
+	wxMessageBox(msg, "About StrixEditor Text Editor", wxOK | wxICON_INFORMATION);
 }

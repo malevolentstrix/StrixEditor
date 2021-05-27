@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/jithin/Documents/StrixEditor/src/Application.cpp
+/home/jithin/Github/StrixEditor/src/Application.cpp
 Application.h
-/home/jithin/Documents/StrixEditor/src/Application.h
+/home/jithin/Github/StrixEditor/src/Application.h
 StrixEditor.h
-/home/jithin/Documents/StrixEditor/src/StrixEditor.h
+/home/jithin/Github/StrixEditor/src/StrixEditor.h
 
-/home/jithin/Documents/StrixEditor/src/Application.h
+/home/jithin/Github/StrixEditor/src/Application.h
 wx/wx.h
 -
 wx/richtext/richtextctrl.h
@@ -20,17 +20,17 @@ wx/richtext/richtextctrl.h
 wx/richtext/richtextbuffer.h
 -
 
-/home/jithin/Documents/StrixEditor/src/StrixEditor.cpp
+/home/jithin/Github/StrixEditor/src/StrixEditor.cpp
 StrixEditor.h
-/home/jithin/Documents/StrixEditor/src/StrixEditor.h
+/home/jithin/Github/StrixEditor/src/StrixEditor.h
 Application.h
-/home/jithin/Documents/StrixEditor/src/Application.h
+/home/jithin/Github/StrixEditor/src/Application.h
 
-/home/jithin/Documents/StrixEditor/src/StrixEditor.h
+/home/jithin/Github/StrixEditor/src/StrixEditor.h
 wx/wx.h
-/home/jithin/Documents/StrixEditor/src/wx/wx.h
+/home/jithin/Github/StrixEditor/src/wx/wx.h
 wx/richtext/richtextctrl.h
-/home/jithin/Documents/StrixEditor/src/wx/richtext/richtextctrl.h
+/home/jithin/Github/StrixEditor/src/wx/richtext/richtextctrl.h
 wx/richtext/richtextbuffer.h
 -
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jithin/Documents/StrixEditor
+CMAKE_SOURCE_DIR = /home/jithin/Github/StrixEditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jithin/Documents/StrixEditor/build
+CMAKE_BINARY_DIR = /home/jithin/Github/StrixEditor/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/StrixEditor.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/StrixEditor.dir/flags.make
 
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: src/CMakeFiles/StrixEditor.dir/flags.make
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o: ../src/StrixEditor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jithin/Documents/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o -c /home/jithin/Documents/StrixEditor/src/StrixEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jithin/Github/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o"
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o -c /home/jithin/Github/StrixEditor/src/StrixEditor.cpp
 
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jithin/Documents/StrixEditor/src/StrixEditor.cpp > CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jithin/Github/StrixEditor/src/StrixEditor.cpp > CMakeFiles/StrixEditor.dir/StrixEditor.cpp.i
 
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jithin/Documents/StrixEditor/src/StrixEditor.cpp -o CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jithin/Github/StrixEditor/src/StrixEditor.cpp -o CMakeFiles/StrixEditor.dir/StrixEditor.cpp.s
 
 src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: src/CMakeFiles/StrixEditor.dir/flags.make
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o: ../src/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jithin/Documents/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/StrixEditor.dir/Application.cpp.o"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StrixEditor.dir/Application.cpp.o -c /home/jithin/Documents/StrixEditor/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jithin/Github/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/StrixEditor.dir/Application.cpp.o"
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StrixEditor.dir/Application.cpp.o -c /home/jithin/Github/StrixEditor/src/Application.cpp
 
 src/CMakeFiles/StrixEditor.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StrixEditor.dir/Application.cpp.i"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jithin/Documents/StrixEditor/src/Application.cpp > CMakeFiles/StrixEditor.dir/Application.cpp.i
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jithin/Github/StrixEditor/src/Application.cpp > CMakeFiles/StrixEditor.dir/Application.cpp.i
 
 src/CMakeFiles/StrixEditor.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StrixEditor.dir/Application.cpp.s"
-	cd /home/jithin/Documents/StrixEditor/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jithin/Documents/StrixEditor/src/Application.cpp -o CMakeFiles/StrixEditor.dir/Application.cpp.s
+	cd /home/jithin/Github/StrixEditor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jithin/Github/StrixEditor/src/Application.cpp -o CMakeFiles/StrixEditor.dir/Application.cpp.s
 
 src/CMakeFiles/StrixEditor.dir/Application.cpp.o.requires:
 
@@ -117,8 +117,8 @@ src/StrixEditor: src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o
 src/StrixEditor: src/CMakeFiles/StrixEditor.dir/Application.cpp.o
 src/StrixEditor: src/CMakeFiles/StrixEditor.dir/build.make
 src/StrixEditor: src/CMakeFiles/StrixEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jithin/Documents/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable StrixEditor"
-	cd /home/jithin/Documents/StrixEditor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StrixEditor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jithin/Github/StrixEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable StrixEditor"
+	cd /home/jithin/Github/StrixEditor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StrixEditor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/StrixEditor.dir/build: src/StrixEditor
@@ -131,10 +131,10 @@ src/CMakeFiles/StrixEditor.dir/requires: src/CMakeFiles/StrixEditor.dir/Applicat
 .PHONY : src/CMakeFiles/StrixEditor.dir/requires
 
 src/CMakeFiles/StrixEditor.dir/clean:
-	cd /home/jithin/Documents/StrixEditor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/StrixEditor.dir/cmake_clean.cmake
+	cd /home/jithin/Github/StrixEditor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/StrixEditor.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/StrixEditor.dir/clean
 
 src/CMakeFiles/StrixEditor.dir/depend:
-	cd /home/jithin/Documents/StrixEditor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jithin/Documents/StrixEditor /home/jithin/Documents/StrixEditor/src /home/jithin/Documents/StrixEditor/build /home/jithin/Documents/StrixEditor/build/src /home/jithin/Documents/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jithin/Github/StrixEditor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jithin/Github/StrixEditor /home/jithin/Github/StrixEditor/src /home/jithin/Github/StrixEditor/build /home/jithin/Github/StrixEditor/build/src /home/jithin/Github/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/StrixEditor.dir/depend
 

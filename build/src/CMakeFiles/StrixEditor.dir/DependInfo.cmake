@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jithin/Documents/StrixEditor/src/Application.cpp" "/home/jithin/Documents/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/Application.cpp.o"
-  "/home/jithin/Documents/StrixEditor/src/StrixEditor.cpp" "/home/jithin/Documents/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o"
+  "/home/jithin/Github/StrixEditor/src/Application.cpp" "/home/jithin/Github/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/Application.cpp.o"
+  "/home/jithin/Github/StrixEditor/src/StrixEditor.cpp" "/home/jithin/Github/StrixEditor/build/src/CMakeFiles/StrixEditor.dir/StrixEditor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

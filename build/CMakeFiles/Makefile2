@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jithin/Documents/StrixEditor
+CMAKE_SOURCE_DIR = /home/jithin/Github/StrixEditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jithin/Documents/StrixEditor/build
+CMAKE_BINARY_DIR = /home/jithin/Github/StrixEditor/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -84,7 +84,7 @@ src/preinstall:
 src/CMakeFiles/StrixEditor.dir/all:
 	$(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/depend
 	$(MAKE) -f src/CMakeFiles/StrixEditor.dir/build.make src/CMakeFiles/StrixEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jithin/Documents/StrixEditor/build/CMakeFiles --progress-num=1,2,3 "Built target StrixEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jithin/Github/StrixEditor/build/CMakeFiles --progress-num=1,2,3 "Built target StrixEditor"
 .PHONY : src/CMakeFiles/StrixEditor.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: src/CMakeFiles/StrixEditor.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/StrixEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Documents/StrixEditor/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Github/StrixEditor/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/StrixEditor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Documents/StrixEditor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jithin/Github/StrixEditor/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/StrixEditor.dir/rule
 
 # Convenience name for target.

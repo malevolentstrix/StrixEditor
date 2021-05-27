@@ -1,4 +1,4 @@
-# Install script for directory: /home/jithin/Documents/StrixEditor/src
+# Install script for directory: /home/jithin/Github/StrixEditor/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

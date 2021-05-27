@@ -1,6 +1,6 @@
 The system is: Linux - 5.4.0-73-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jithin/Documents/StrixEditor/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jithin/Github/StrixEditor/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/x86_64-linux-gnu-g++-7 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jithin/Documents/StrixEditor/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jithin/Github/StrixEditor/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_75785/fast"
-/usr/bin/make -f CMakeFiles/cmTC_75785.dir/build.make CMakeFiles/cmTC_75785.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_75785.dir/testCCompiler.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_75785.dir/testCCompiler.c.o   -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_75785
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75785.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_75785.dir/testCCompiler.c.o  -o cmTC_75785 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4f11e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f11e.dir/build.make CMakeFiles/cmTC_4f11e.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f11e.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4f11e.dir/testCCompiler.c.o   -c /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4f11e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f11e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f11e.dir/testCCompiler.c.o  -o cmTC_4f11e 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed0b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed0b8.dir/build.make CMakeFiles/cmTC_ed0b8.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ed0b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed0b8.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o  -o cmTC_ed0b8 
+Run Build Command:"/usr/bin/make" "cmTC_7c326/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c326.dir/build.make CMakeFiles/cmTC_7c326.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7c326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c326.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o  -o cmTC_7c326 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7
+COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
@@ -61,26 +61,26 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ed0b8' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNYsME7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed0b8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ed0b8' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c326' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccht1TOw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c326 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c326' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ed0b8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ed0b8.dir/build.make CMakeFiles/cmTC_ed0b8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ed0b8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed0b8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-gcc-7     -v -rdynamic CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o  -o cmTC_ed0b8 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7c326/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7c326.dir/build.make CMakeFiles/cmTC_7c326.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7c326]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c326.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o  -o cmTC_7c326 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc-7]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ed0b8' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNYsME7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed0b8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c326' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccht1TOw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c326 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNYsME7.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccht1TOw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ed0b8] ==> ignore
+    arg [cmTC_7c326] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_ed0b8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7c326.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa693/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa693.dir/build.make CMakeFiles/cmTC_aa693.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa693.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c11 -o CMakeFiles/cmTC_aa693.dir/feature_tests.c.o   -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_aa693
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa693.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_aa693.dir/feature_tests.c.o  -o cmTC_aa693 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_08ffc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08ffc.dir/build.make CMakeFiles/cmTC_08ffc.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08ffc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_08ffc.dir/feature_tests.c.o   -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_08ffc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08ffc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08ffc.dir/feature_tests.c.o  -o cmTC_08ffc 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b4fc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b4fc.dir/build.make CMakeFiles/cmTC_9b4fc.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b4fc.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c99 -o CMakeFiles/cmTC_9b4fc.dir/feature_tests.c.o   -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9b4fc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b4fc.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_9b4fc.dir/feature_tests.c.o  -o cmTC_9b4fc 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_70bda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70bda.dir/build.make CMakeFiles/cmTC_70bda.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70bda.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_70bda.dir/feature_tests.c.o   -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_70bda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70bda.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70bda.dir/feature_tests.c.o  -o cmTC_70bda 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59e02/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59e02.dir/build.make CMakeFiles/cmTC_59e02.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59e02.dir/feature_tests.c.o
-/usr/bin/x86_64-linux-gnu-gcc-7   -std=c90 -o CMakeFiles/cmTC_59e02.dir/feature_tests.c.o   -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_59e02
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59e02.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_59e02.dir/feature_tests.c.o  -o cmTC_59e02 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3b32b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b32b.dir/build.make CMakeFiles/cmTC_3b32b.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b32b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3b32b.dir/feature_tests.c.o   -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3b32b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b32b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3b32b.dir/feature_tests.c.o  -o cmTC_3b32b 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,32 +215,32 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4cdb4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4cdb4.dir/build.make CMakeFiles/cmTC_4cdb4.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4cdb4.dir/testCXXCompiler.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_4cdb4.dir/testCXXCompiler.cxx.o -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4cdb4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cdb4.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_4cdb4.dir/testCXXCompiler.cxx.o  -o cmTC_4cdb4 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b470d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b470d.dir/build.make CMakeFiles/cmTC_b470d.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b470d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b470d.dir/testCXXCompiler.cxx.o -c /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b470d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b470d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b470d.dir/testCXXCompiler.cxx.o  -o cmTC_b470d 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5f1ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5f1ed.dir/build.make CMakeFiles/cmTC_5f1ed.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_5f1ed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1ed.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f1ed 
+Run Build Command:"/usr/bin/make" "cmTC_b1125/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1125.dir/build.make CMakeFiles/cmTC_b1125.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b1125
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1125.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1125 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7
+COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
@@ -250,26 +250,26 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3oumtj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f1ed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1125' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cczq9bA0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1125 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1125' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5f1ed/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5f1ed.dir/build.make CMakeFiles/cmTC_5f1ed.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_5f1ed]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1ed.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/x86_64-linux-gnu-g++-7      -v -rdynamic CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f1ed ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b1125/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b1125.dir/build.make CMakeFiles/cmTC_b1125.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b1125]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1125.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1125 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++-7]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5f1ed' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3oumtj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f1ed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1125' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cczq9bA0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1125 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3oumtj.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczq9bA0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5f1ed] ==> ignore
+    arg [cmTC_b1125] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_5f1ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b1125.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2627a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2627a.dir/build.make CMakeFiles/cmTC_2627a.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2627a.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++1z -o CMakeFiles/cmTC_2627a.dir/feature_tests.cxx.o -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2627a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2627a.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_2627a.dir/feature_tests.cxx.o  -o cmTC_2627a 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6c1c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c1c9.dir/build.make CMakeFiles/cmTC_6c1c9.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c1c9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_6c1c9.dir/feature_tests.cxx.o -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6c1c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1c9.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6c1c9.dir/feature_tests.cxx.o  -o cmTC_6c1c9 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f4d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9f4d7.dir/build.make CMakeFiles/cmTC_9f4d7.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9f4d7.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++14 -o CMakeFiles/cmTC_9f4d7.dir/feature_tests.cxx.o -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9f4d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f4d7.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_9f4d7.dir/feature_tests.cxx.o  -o cmTC_9f4d7 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bac32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bac32.dir/build.make CMakeFiles/cmTC_bac32.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bac32.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_bac32.dir/feature_tests.cxx.o -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bac32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac32.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bac32.dir/feature_tests.cxx.o  -o cmTC_bac32 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e128b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e128b.dir/build.make CMakeFiles/cmTC_e128b.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e128b.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++11 -o CMakeFiles/cmTC_e128b.dir/feature_tests.cxx.o -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e128b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e128b.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_e128b.dir/feature_tests.cxx.o  -o cmTC_e128b 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6f65b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f65b.dir/build.make CMakeFiles/cmTC_6f65b.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f65b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6f65b.dir/feature_tests.cxx.o -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6f65b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f65b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6f65b.dir/feature_tests.cxx.o  -o cmTC_6f65b 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbd66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dbd66.dir/build.make CMakeFiles/cmTC_dbd66.dir/build
-make[1]: Entering directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dbd66.dir/feature_tests.cxx.o
-/usr/bin/x86_64-linux-gnu-g++-7    -std=c++98 -o CMakeFiles/cmTC_dbd66.dir/feature_tests.cxx.o -c /home/jithin/Documents/StrixEditor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dbd66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbd66.dir/link.txt --verbose=1
-/usr/bin/x86_64-linux-gnu-g++-7       -rdynamic CMakeFiles/cmTC_dbd66.dir/feature_tests.cxx.o  -o cmTC_dbd66 
-make[1]: Leaving directory '/home/jithin/Documents/StrixEditor/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48358/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48358.dir/build.make CMakeFiles/cmTC_48358.dir/build
+make[1]: Entering directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48358.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_48358.dir/feature_tests.cxx.o -c /home/jithin/Github/StrixEditor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_48358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48358.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_48358.dir/feature_tests.cxx.o  -o cmTC_48358 
+make[1]: Leaving directory '/home/jithin/Github/StrixEditor/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
