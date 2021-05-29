@@ -7,5 +7,9 @@
 class Application : public wxApp {
 public:
 	virtual bool OnInit();
-		wxRichTextPrinting* GetPrinting() const;
+#if wxUSE_PRINTING_ARCHITECTURE
+	wxRichTextPrinting* m_printing;
+	wxRichTextPrinting* GetPrinting() const;
+
+#endif
 };
