@@ -18,6 +18,7 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 <li>File</li>
 <li>About</li>
 <li>Export</li>
+<li>Edit</li>
 </ol>
 
 ## How does it look?
