@@ -10,12 +10,14 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 <li>Open .txt files</li>
 <li>Exit the Application</li>
 <li>Show the Developer Information</li>
+<li>Export the written content as PDF, SVG or PostScript</li>
 </ol>
 
 ## Menus Available
 <ol>
 <li>File</li>
 <li>About</li>
+<li>Export</li>
 </ol>
 
 ## How does it look?
@@ -27,7 +29,7 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 
 #### Menu
 <br>
-<img height = 400 width = 1000 src = "./screenshots/menu.png">
+<img height = 300 width = 400 src = "./screenshots/menu.png">
 </br>
 
 #### About
