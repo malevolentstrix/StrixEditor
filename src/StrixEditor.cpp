@@ -18,22 +18,32 @@ StrixEditor::StrixEditor(const wxString& title, const wxSize& size)
 	: wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, size) {
 	menubar = new wxMenuBar;
 
-	// File menu option
+	// Menus
 	file = new wxMenu;
 	help = new wxMenu;
 	exportto = new wxMenu;
+	edit = new wxMenu;
 
 	// Menu Items
 	file->Append(ID_Open, "&Open\tCtrl+O", "Open a file");
 	file->Append(ID_Save, "&Save\tCtrl+S", "Save a file");
 	file->Append(ID_Quit, "&Quit\tCtrl+Q", "Quit StrixEditor");
-	help->Append(ID_About, "&About\tCtrl+A", "About Us");
+	help->Append(ID_About, "&About\tCtrl+U", "About Us");
 	exportto->Append(ID_AsPDF, "&Export as PDF, SVG or PostScript", "Get a file");
+	edit->Append(wxID_UNDO, _("&Undo\tCtrl+Z"));
+	edit->Append(wxID_REDO, _("&Redo\tCtrl+Y"));
+	edit->AppendSeparator();
+	edit->Append(wxID_CUT, _("Cu&t\tCtrl+X"));
+	edit->Append(wxID_COPY, _("&Copy\tCtrl+C"));
+	edit->Append(wxID_PASTE, _("&Paste\tCtrl+V"));
+	edit->AppendSeparator();
+	edit->Append(wxID_SELECTALL, _("Select A&ll\tCtrl+A"));
 
 	// Add Menubar Items
 	menubar->Append(file, "&File");
 	menubar->Append(help, "&Help");
 	menubar->Append(exportto, "&Export");
+	menubar->Append(edit, "&Edit");
 
 	// Attach the menu bar to the frame
 	SetMenuBar(menubar);

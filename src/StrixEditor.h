@@ -20,6 +20,7 @@ public:
 	wxMenu* file;
 	wxMenu* help;
 	wxMenu* exportto;
+	wxMenu* edit;
 
 	// Event Handlers
 	void OnQuit(wxCommandEvent& event);

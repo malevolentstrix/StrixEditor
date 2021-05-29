@@ -29,12 +29,17 @@ This project was done to understand the basics of wxWidgets : The Cross Platform
 
 #### Menu
 <br>
-<img height = 300 width = 400 src = "./screenshots/menu.png">
+<img height = 300 width = 400 src = "./screenshots/menu1.png">
 </br>
 
 #### About
 <br>
 <img height = 400 width = 1000 src = "./screenshots/about.png">
+</br>
+
+#### E
+<br>
+<img height = 400 width = 1000 src = "./screenshots/openfile.png">
 </br>
 
 #### Open File Box Appearance
